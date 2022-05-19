@@ -40,10 +40,15 @@ x.x.x.x - your VM public IP address
 Also, the model should be either 1 - Decision Tree or 2 - Random Forest
 ## How to run app using docker and which port it uses
   First step is to install docker and use a command to pull the image:
-  
 
     docker pull melikianstudent/final_project:v.1.6
 
 Then just use **docker run**, it's easy!
+
+    docker run --network host -d melikianstudent/final_project:v.1.6
+    OR
+    docker run --network host -it melikianstudent/final_project:v.1.6 /bin/bash
+    Then: Python3 App.py
+
     
 Now everything is ready and you can make your queries)
