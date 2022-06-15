@@ -18,11 +18,11 @@ Since the database is the same the models have some similiarities, here is the d
  - Renovation -- integer
  - Time_gap -- integer
 ## How to install instructions and run your app with virtual environment
-- You need to create A Virtual Machine based on Ubuntu OS
-- Install Python 3
-- Install libraries (Flask, Numpy...check Requirements.txt)
-- Initialise Git and pull files from the repository
-- Run App.py
+1. You need to create A Virtual Machine based on Ubuntu OS
+2. Install Python 3
+3. Install libraries (Flask, Numpy...check Requirements.txt)
+4. Initialise Git and pull files from the repository
+5. Run App.py (command ***python app.py***)
 ## Information about Dockerfile and describe it’s content
 The Dockerfile is a container with the whole app. It can help you to both run or transfer this app to other devices.
 However, the same as GitHub it needs to be installed and activated:
